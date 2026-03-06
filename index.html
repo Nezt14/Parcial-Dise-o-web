@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de </title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <img src="https://www.univo.edu.sv/wp-content/uploads/2020/07/escudo.png" alt="Logo universidad" class="logo">
+
+        <div class="header-texto">
+            <h1>Universidad de Oriente</h1>
+            <p>Panel de Cursos Universitarios</p>
+        </div>
+
+    </header>
+
+    <nav class="nav">
+        <ul class="menu">
+            <li><button data-section="inicio">Inicio</button></li>
+            <li><button data-section="cursos">Cursos</button></li>
+            <li><button data-section="calendario">Calendario</button></li>
+            <li><button data-section="contacto">Contacto</button></li>
+        </ul>
+    </nav>
+
+    <main class="layout">
+        <section id="inicio">
+
+            <h2>Misión</h2>
+            <p>Formar profesionales competentes con valores y compromiso social.</p>
+
+            <h2>Visión</h2>
+            <p>Ser una universidad líder en innovación y excelencia académica.</p>
+
+            <h2>Valores</h2>
+
+            <ul>
+                <li>Excelencia</li>
+                <li>Innovación</li>
+                <li>Responsabilidad</li>
+            </ul>
+
+        </section>
+
+        <section id="cursos" class="hidden">
+            <h2>Cursos disponibles</h2>
+
+            <p id="contador">Cursos disponibles: 0</p>
+
+            <div id="listaCursos" class="cursos"></div>
+
+            <h3>Agregar Curso</h3>
+
+            <form id="formCurso">
+
+                <input type="text" id="nombre" placeholder="Nombre del curso">
+                <input type="text" id="docente" placeholder="Docente">
+                <input type="text" id="duracion" placeholder="Duración (ej: 8 semanas)">
+
+                <button type="submit">Agregar Curso</button>
+
+                <p id="error"></p>
+
+            </form>
+        </section>
+
+        <section id="calendario" class="hidden">
+            <h2>Calendario Académico</h2>
+            <ul>
+                <li>Inicio de clases: 10 marzo</li>
+                <li>Exámenes parciales: 15 abril</li>
+                <li>Vacaciones: 1 mayo</li>
+                <li>Fin de clases: 30 junio</li>
+            </ul>
+        </section>
+
+        <section id="contacto" class="hidden">
+
+            <h2>Contacto</h2>
+
+            <p>Tel: 2660-0000</p>
+            <p>Email: info@univo.edu.sv</p>
+            <p>Dirección: San Miguel, El Salvador</p>
+
+        </section>
+
+        <aside>
+
+            <h3>Información académica</h3>
+
+            <p>📅 Horario: 8:00 AM - 6:00 PM</p>
+            <p>📍 Campus UNIVO</p>
+            <p>☎️ Atención estudiantil</p>
+
+        </aside>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <h3>Universidad de Oriente</h3>
+                <p>Formando profesionales con excelencia desde 1976</p>
+
+                <div class="social-icons">
+                    <span>📘</span>
+                    <span>📸</span>
+                    <span>📷</span>
+                    <span>🔗</span>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <p>📍 Blvd. Universitario, San Miguel</p>
+                <p>📞 2660-1234</p>
+                <p>✉️ info@univo.edu.sv</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Enlaces útiles</h3>
+                <ul>
+                    <li>Preguntas frecuentes</li>
+                    <li>Políticas de privacidad</li>
+                    <li>Trabaja con nosotros</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Universidad De Oriente — <span>Studium est via veritatis</span>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
