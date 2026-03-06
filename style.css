@@ -76,6 +76,33 @@ flex-wrap:wrap;
 gap:15px;
 }
 
+.tarjetaInicio{
+    background-color: whitesmoke;
+    border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  transition: transform .25s ease, box-shadow .25s ease;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.tarjeta:hover{
+    transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+  
+}
+.valoresInicio{
+    padding-left: 25px;
+
+}
+
+.tarjetaInicio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
+
 .card{
 background:white;
 padding:15px;
@@ -91,6 +118,27 @@ width:200px;
 
 .card:hover{
 transform:translateY(-5px);
+}
+.fecha {
+  flex: 1;
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 24px;
+  border-left: 4px solid #002855;
+  transition: transform .2s ease;
+}
+.fecha:hover { transform: translateY(-4px); }
+
+.contact {
+  flex: 1;
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 14px;
+  border-left: 4px solid #002855;
+  transition: transform .2s ease;
+}
+.contact:hover{
+    transform: translateY(-4px);
 }
 
 
