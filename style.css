@@ -119,11 +119,17 @@ width:200px;
 .card:hover{
 transform:translateY(-5px);
 }
+
+.fechaul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .fecha {
   flex: 1;
   background: #f9fafb;
   border-radius: 10px;
-  padding: 24px;
+  padding: 17px;
   border-left: 4px solid #002855;
   transition: transform .2s ease;
 }
@@ -133,14 +139,16 @@ transform:translateY(-5px);
   flex: 1;
   background: #f9fafb;
   border-radius: 10px;
-  padding: 14px;
+  padding: 10px;
   border-left: 4px solid #002855;
   transition: transform .2s ease;
 }
 .contact:hover{
     transform: translateY(-4px);
 }
-
+.contactinfo{
+    margin-top: 8px;
+}
 
 /* ASIDE */
 
